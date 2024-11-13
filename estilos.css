@@ -1,0 +1,101 @@
+
+#cabecera{
+    padding: 0px;
+    height: 60px;
+}
+#img1{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    background-color: rgb(202, 0, 0);
+    padding: 8px;
+    margin-bottom: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+}
+a.item_menu{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+a.item_menu:hover{
+    background-color: rgb(235, 0, 0);
+}
+.busqueda {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: 1px solid  #807f7f;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 400px;
+    height: 35px;
+    margin-right: auto;
+}
+.busqueda input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+.busqueda button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: optional;
+}
+#img2{
+    width: 26px;
+}
+#img3{
+    width: 20px;
+}
+#img4{
+    width: 20px;
+}
+#img5{
+    width: 20px;
+}
+#img6{
+    width: 20px;
+}
+.usuario {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 220px;
+    height: 35px;
+    border: 1px solid  #d5d5d5;
+    margin-right: auto;
+}
+.usuario input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+.usuario button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: optional;
+}
+#img7{
+    width: 20px;
+}
+.tabla{
+    padding: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
